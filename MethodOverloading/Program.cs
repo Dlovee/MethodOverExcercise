@@ -2,7 +2,7 @@
 {
     public class Program
     {
-        public static int add(int numOne, int numTwo)
+        public static int Add(int numOne, int numTwo)
         {
             return numOne + numTwo;
         }
@@ -16,6 +16,8 @@
         {
             //Console.WriteLine(decimal.Add(2, 2)); //The Console.WriteLine knows which method to run based on the numbers I type inside the parameters (2.5m or 2).
             Console.WriteLine(Add(0, 1, true));
+            Console.WriteLine(Add(1, 13));
+            Console.WriteLine(Add(2.25m, 3.45m));
         }
 
         public static string Add(int numOne, int numTwo, bool isCurrency)
